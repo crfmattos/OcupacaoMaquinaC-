@@ -1,0 +1,14 @@
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\bin\Debug\net7.0\OcupacaoMaquinaC#.exe
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\bin\Debug\net7.0\OcupacaoMaquinaC#.deps.json
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\bin\Debug\net7.0\OcupacaoMaquinaC#.runtimeconfig.json
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\bin\Debug\net7.0\OcupacaoMaquinaC#.dll
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\bin\Debug\net7.0\OcupacaoMaquinaC#.pdb
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.AssemblyInfoInputs.cache
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.AssemblyInfo.cs
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.csproj.CoreCompileInputs.cache
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.dll
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\refint\OcupacaoMaquinaC#.dll
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.pdb
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\OcupacaoMaquinaC#.genruntimeconfig.cache
+C:\Users\CISSO-5\Documents\OcupacaoMaquinaC#\obj\Debug\net7.0\ref\OcupacaoMaquinaC#.dll
