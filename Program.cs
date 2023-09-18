@@ -44,9 +44,9 @@ void PopularBancoDeMaquinas()
     equipamentos.AddRange(CriarListaEquipamentos());
 }
 
-void CriarNovaMaquina(string nome, int hora, int valor)
+void CriarNovaMaquina(string nome, double limiteHoras, double valorMaquina )
 {
- equipamentos.Add(new Maquina(nome, hora, valor));
+ equipamentos.Add(new Maquina(nome, limiteHoras, valorMaquina));
 }
 
 void PopularBancoDeProjetos()
@@ -131,9 +131,36 @@ DateTime CalcularQtdDeMeses(DateTime data, int numeroDeMeses)
         return dataSubtraida;
 }
 
-
-void ExibirEquipamentos()
+void CriarNovaMaquinaComInput()
 {
+    Console.WriteLine("\nInsira os dados para cadastrar uma máquina abaixo:");
+    Console.Write("Nome: ");
+     string nome = Console.ReadLine();
+     Console.Write("Limite de horas da máquina: ");
+     double limiteHoras = Convert.ToDouble(Console.ReadLine());
+     Console.Write("Valor da máquina: ");
+     double valorMaquina = Convert.ToDouble(Console.ReadLine());
+     CriarNovaMaquina(nome, limiteHoras, valorMaquina);
+     
+}
+
+void CriarNovoProjetoComInput()
+{
+    Console.WriteLine("\nInsira os dados para cadastrar um projeto abaixo:");
+    Console.Write("Id do projeto: ");
+     string id = Console.ReadLine();
+     Console.Write("Data de Início: ");
+     string dataInicio = Console.ReadLine();
+     Console.Write("Data de conclusão: ");
+     string dataConclusao = Console.ReadLine();
+     Console.Write("Líder de projeto: ");
+     string lider = Console.ReadLine();
+     CriarNovoProjeto(id, dataInicio, dataConclusao, lider);
+     
+}
+
+
+void ExibirEquipamentos(){
     foreach( var equipamento in equipamentos)
     {
         Console.WriteLine(equipamento.nome);
@@ -157,13 +184,18 @@ Console.WriteLine(CalcularHoraMaquina(equipamentos[0]));
 
 CriarNovaMaquina("Ar-Condicionado", 5, 10000);
 
+CriarNovaMaquinaComInput();
+CriarNovoProjetoComInput();
+
 ExibirEquipamentos();
 
 Console.WriteLine(CalcularOcupacaoMaquina(equipamentos[0]));
 
 var x = FiltrarHorasPorMaquina(equipamentos[0]);
 var y = ListarPorcentagensFiltradas(x);
-foreach (var numero in y) {
-    Console.WriteLine($"{numero*100}%");
+foreach (var alocacao in x) {
+    Console.WriteLine($"{alocacao.projeto.id}- está usando {alocacao.qtdHoraPorMaquina} horas");
 }
 
+CriarNovaMaquinaComInput();
+CriarNovoProjetoComInput();

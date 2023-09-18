@@ -1,6 +1,6 @@
 class Maquina
 {
-    public Maquina(string nome, int limiteHoras, double valorMaquina)
+    public Maquina(string nome, double limiteHoras, double valorMaquina)
     {
         this.nome = nome;
         this.limiteHoras = limiteHoras;

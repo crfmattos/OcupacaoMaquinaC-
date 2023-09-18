@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj": {}
+    "c:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj": {
+    "c:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj",
+        "projectUniqueName": "c:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj",
         "projectName": "OcupacaoMaquinaC#",
-        "projectPath": "C:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj",
+        "projectPath": "c:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\OcupacaoMaquinaC#.csproj",
         "packagesPath": "C:\\Users\\CISSO-5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\obj\\",
+        "outputPath": "c:\\Users\\CISSO-5\\Documents\\OcupacaoMaquinaC#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CISSO-5\\AppData\\Roaming\\NuGet\\NuGet.Config",
